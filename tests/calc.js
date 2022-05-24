@@ -60,7 +60,6 @@ describe("calc", () => {
     })
     const account=await program.account.calculator.fetch(calculator.publicKey)
     assert.ok(account.result.eq(new anchor.BN(2)), account.remainder.eq(new anchor.BN(2)))
-    console.log(account.result, account.remainder)
   })
 
 })
