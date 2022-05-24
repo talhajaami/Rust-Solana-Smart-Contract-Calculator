@@ -26,13 +26,21 @@ https://github.com/LearnWithArjun/solana-env-setup/blob/main/windows_setup.md
 # To run this blockchain
 
 To install javascript packages for testing
-> yarn install
+```
+yarn install
+```
 
 To start Solana local validator
-> solana-test-validator
+```
+solana-test-validator
+```
 
 To build
-> anchor build
+```
+anchor build
+```
 
 For testing
-> anchor test --skip-local-validator
+``` 
+anchor test --skip-local-validator 
+```
