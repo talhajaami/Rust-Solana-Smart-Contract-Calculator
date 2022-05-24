@@ -1,0 +1,9 @@
+.git
+.anchor
+.DS_Store
+Cargo.lock
+yarn.lock
+~
+target
+**/*.rs.bk
+node_modules
